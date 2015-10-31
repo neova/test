@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import core.App;
 import core.graphics.Scene;
-import test.Tr;
+//import test.Tr;
 
 public class Main {
 
