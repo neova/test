@@ -45,7 +45,7 @@ public class ResurсeLoader {
 		return image;
 	}
 	//если расширение будет text/plain то выполнется loadImage
-	private String loadConfig(String fileName) {
+	public String loadConfig(String fileName) {
         StringBuilder sb = new StringBuilder();
         try {
             InputStream is = (InputStream) getClass().getResourceAsStream(PATH + fileName);
